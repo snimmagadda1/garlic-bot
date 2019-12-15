@@ -2,7 +2,7 @@
 
 Written in Node.js and deployed via AWS lambda.
 
-Follow @bot_garlic on twitter <a href="https://twitter.com/garlic_bot"><img alt="Twitter: garlic_bot" src="https://img.shields.io/twitter/follow/garlic_bot.svg?style=social" target="_blank" /></a>
+Follow @bot_garlic on Twitter <a href="https://twitter.com/garlic_bot"><img alt="Twitter: garlic_bot" src="https://img.shields.io/twitter/follow/garlic_bot.svg?style=social" target="_blank" /></a>
 
 ![](butterbot.jpeg)
 
