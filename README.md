@@ -1,12 +1,6 @@
 # garlic-bot
 
-Follow @bot_garlic on twitter
-
-<p align="center">
-  <a href="https://twitter.com/garlic_bot">
-    <img alt="Twitter: garlic_bot" src="https://img.shields.io/twitter/follow/garlic_bot.svg?style=social" target="_blank" />
-  </a>
-</p>
+Follow @bot_garlic on twitter <a href="https://twitter.com/garlic_bot"><img alt="Twitter: garlic_bot" src="https://img.shields.io/twitter/follow/garlic_bot.svg?style=social" target="_blank" /></a>
 
 ![](butterbot.jpeg)
 
