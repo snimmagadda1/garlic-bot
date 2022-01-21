@@ -36,7 +36,7 @@ var retweet = function () {
               });
       }
       else {
-          console.log('Error during tweet search call');
+          console.log('Error during tweet search call', err);
       }
   });
 };
