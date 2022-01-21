@@ -69,7 +69,6 @@ functions:
     events:
       - schedule: rate(5 hours)
     environment:
-      JOKES_API_URL: ${self:custom.env.JOKES_API_URL}
       LAMBDA_ARN: ${self:custom.env.LAMBDA_ARN}
       TWITTER_CONSUMER_KEY: ${self:custom.env.TWITTER_CONSUMER_KEY}
       TWITTER_CONSUMER_SECRET: ${self:custom.env.TWITTER_CONSUMER_SECRET}
