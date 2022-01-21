@@ -17,10 +17,11 @@ var retweet = function () {
       // geocode: '35.7796,-78.6382,20mi',
       lang: 'en'
   }
+  console.log('##### searching tweets')
   TwitterClient.get('search/tweets', params, function (err, data) {
       if (!err) {
               var index = Math.floor(Math.random()*data.statuses.length);
-              console.log("The index to pick is" + index)
+              console.log("##### tweet index to pick is" + index)
               var retweetId = data.statuses[index].id_str;
               console.log(data.statuses[index]);
               TwitterClient.post('statuses/retweet/:id', {
@@ -31,12 +32,12 @@ var retweet = function () {
                   }
                   if (err) {
                         console.log(err);
-                      console.log('Problem when retweeting. Possibly already retweeted this tweet!');
+                      console.log('##### problem when retweeting -possibly already retweeted this tweet!');
                   }
               });
       }
       else {
-          console.log('Error during tweet search call');
+          console.log('##### error during tweet search call', err);
       }
   });
 };
