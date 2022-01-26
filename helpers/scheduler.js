@@ -83,8 +83,8 @@ async function addPerm(source) {
     const lambda = new AWS.Lambda();
     return new Promise((resolve, reject) => {
         lambda.addPermission(params, function (err, data) {
-            if (err) reject(err, err.stack); // an error occurred
-            else resolve(data);           // successful response
+            if (err) reject(err, err.stack);
+            else resolve(data);
         });
     });
 }
