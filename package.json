@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1061.0",
+    "aws-sdk": "^2.1354.0",
     "node-fetch": "^2.6.7",
     "twit": "^2.2.11",
     "twitter": "^1.7.1"
